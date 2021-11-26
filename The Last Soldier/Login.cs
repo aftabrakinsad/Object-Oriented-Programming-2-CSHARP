@@ -22,9 +22,29 @@ namespace The_Last_Soldier
             System.Windows.Forms.Application.Exit();
         }
 
+        private void loginbttn2_Click(object sender, EventArgs e)
+        {
+            panel1.BringToFront();
+        }
+
         private void register_bttn_3_Click(object sender, EventArgs e)
         {
-            register_panel3.BringToFront();
+            panel2.BringToFront();
+        }
+
+        private void armyman_bttn_4_Click(object sender, EventArgs e)
+        {
+            panel3.BringToFront();
+        }
+
+        private void armymanf_bttn_5_Click(object sender, EventArgs e)
+        {
+            panel4.BringToFront();
+        }
+
+        private void admin_bttn_6_Click(object sender, EventArgs e)
+        {
+            panel5.BringToFront();
         }
     }
 }
