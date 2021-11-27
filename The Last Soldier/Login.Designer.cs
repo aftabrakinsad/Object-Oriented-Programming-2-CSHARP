@@ -50,8 +50,6 @@ namespace The_Last_Soldier
             this.label10 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.mregister_bttn_7 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -326,8 +324,6 @@ namespace The_Last_Soldier
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel2.Controls.Add(this.mregister_bttn_7);
-            this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.textBox5);
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Controls.Add(this.textBox2);
@@ -354,29 +350,11 @@ namespace The_Last_Soldier
             this.mregister_bttn_7.TabIndex = 12;
             this.mregister_bttn_7.Text = "Register";
             this.mregister_bttn_7.UseVisualStyleBackColor = false;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(17, 267);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(195, 27);
-            this.label15.TabIndex = 11;
-            this.label15.Text = "Confirm Password";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(239, 258);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(259, 36);
-            this.textBox5.TabIndex = 10;
+            this.mregister_bttn_7.Click += new System.EventHandler(this.mregister_bttn_7_Click);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(239, 195);
+            this.textBox4.Location = new System.Drawing.Point(239, 249);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(259, 36);
@@ -384,7 +362,7 @@ namespace The_Last_Soldier
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(239, 132);
+            this.textBox3.Location = new System.Drawing.Point(239, 183);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(259, 36);
@@ -392,7 +370,7 @@ namespace The_Last_Soldier
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(239, 74);
+            this.textBox2.Location = new System.Drawing.Point(239, 115);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(259, 36);
@@ -403,7 +381,7 @@ namespace The_Last_Soldier
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(104, 204);
+            this.label14.Location = new System.Drawing.Point(104, 258);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(108, 27);
             this.label14.TabIndex = 6;
@@ -414,7 +392,7 @@ namespace The_Last_Soldier
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(145, 141);
+            this.label13.Location = new System.Drawing.Point(145, 192);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(67, 27);
             this.label13.TabIndex = 4;
@@ -425,15 +403,15 @@ namespace The_Last_Soldier
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(104, 83);
+            this.label12.Location = new System.Drawing.Point(97, 124);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 27);
+            this.label12.Size = new System.Drawing.Size(114, 27);
             this.label12.TabIndex = 2;
-            this.label12.Text = "Password";
+            this.label12.Text = "Unique ID";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(239, 15);
+            this.textBox1.Location = new System.Drawing.Point(239, 45);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 36);
@@ -444,7 +422,7 @@ namespace The_Last_Soldier
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(139, 24);
+            this.label11.Location = new System.Drawing.Point(139, 54);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(73, 27);
             this.label11.TabIndex = 0;
@@ -620,6 +598,7 @@ namespace The_Last_Soldier
             this.armyfloginbttn9.TabIndex = 14;
             this.armyfloginbttn9.Text = "Login";
             this.armyfloginbttn9.UseVisualStyleBackColor = false;
+            this.armyfloginbttn9.Click += new System.EventHandler(this.armyfloginbttn9_Click);
             // 
             // textBox11
             // 
@@ -672,11 +651,11 @@ namespace The_Last_Soldier
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(52, 97);
+            this.label20.Location = new System.Drawing.Point(96, 97);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(115, 26);
+            this.label20.Size = new System.Drawing.Size(71, 26);
             this.label20.TabIndex = 0;
-            this.label20.Text = "Username";
+            this.label20.Text = "Name";
             // 
             // panel5
             // 
@@ -806,8 +785,6 @@ namespace The_Last_Soldier
         private System.Windows.Forms.Button armymanf_bttn_5;
         private System.Windows.Forms.Button armyman_bttn_4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;

@@ -52,6 +52,12 @@
     <Compile Include="Armyman.Designer.cs">
       <DependentUpon>Armyman.cs</DependentUpon>
     </Compile>
+    <Compile Include="armymanfamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="armymanfamily.Designer.cs">
+      <DependentUpon>armymanfamily.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
