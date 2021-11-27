@@ -62,30 +62,30 @@ namespace The_Last_Soldier
             this.label11 = new System.Windows.Forms.Label();
             this.loginbttn2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.armyloginbttn8 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
+            this.armyloginbttn8 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.armyfloginbttn9 = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.adimnloginbttn10 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.armyfloginbttn9 = new System.Windows.Forms.Button();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.adimnloginbttn10 = new System.Windows.Forms.Button();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.LeftPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -210,6 +210,7 @@ namespace The_Last_Soldier
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(964, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(53, 37);
@@ -222,7 +223,7 @@ namespace The_Last_Soldier
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(531, 55);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(376, 23);
@@ -234,7 +235,7 @@ namespace The_Last_Soldier
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(506, 78);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(425, 23);
@@ -258,6 +259,7 @@ namespace The_Last_Soldier
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel1.Controls.Add(this.admin_bttn_6);
             this.panel1.Controls.Add(this.armymanf_bttn_5);
             this.panel1.Controls.Add(this.armyman_bttn_4);
@@ -313,6 +315,7 @@ namespace The_Last_Soldier
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(55, 45);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(146, 31);
@@ -321,6 +324,7 @@ namespace The_Last_Soldier
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel2.Controls.Add(this.mregister_bttn_7);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.textBox5);
@@ -332,6 +336,7 @@ namespace The_Last_Soldier
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label11);
+            this.panel2.ForeColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(452, 277);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(537, 378);
@@ -354,6 +359,7 @@ namespace The_Last_Soldier
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(17, 267);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(195, 27);
@@ -396,6 +402,7 @@ namespace The_Last_Soldier
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(104, 204);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(108, 27);
@@ -406,6 +413,7 @@ namespace The_Last_Soldier
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(145, 141);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(67, 27);
@@ -416,6 +424,7 @@ namespace The_Last_Soldier
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(104, 83);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(108, 27);
@@ -434,6 +443,7 @@ namespace The_Last_Soldier
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(139, 24);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(73, 27);
@@ -457,6 +467,7 @@ namespace The_Last_Soldier
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel3.Controls.Add(this.label19);
             this.panel3.Controls.Add(this.armyloginbttn8);
             this.panel3.Controls.Add(this.textBox8);
@@ -465,67 +476,22 @@ namespace The_Last_Soldier
             this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.textBox6);
             this.panel3.Controls.Add(this.label16);
+            this.panel3.ForeColor = System.Drawing.Color.White;
             this.panel3.Location = new System.Drawing.Point(452, 277);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(537, 378);
             this.panel3.TabIndex = 9;
             // 
-            // label16
+            // label19
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(81, 128);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(115, 26);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Username";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(221, 110);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(256, 41);
-            this.textBox6.TabIndex = 1;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(86, 185);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(110, 26);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "Password";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(78, 245);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(118, 26);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "Unique ID";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(221, 170);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(256, 41);
-            this.textBox7.TabIndex = 4;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(221, 230);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(256, 41);
-            this.textBox8.TabIndex = 5;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
+            this.label19.Location = new System.Drawing.Point(136, 19);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(233, 23);
+            this.label19.TabIndex = 15;
+            this.label19.Text = "Welcome home soilder!";
             // 
             // armyloginbttn8
             // 
@@ -540,20 +506,71 @@ namespace The_Last_Soldier
             this.armyloginbttn8.TabIndex = 14;
             this.armyloginbttn8.Text = "Login";
             this.armyloginbttn8.UseVisualStyleBackColor = false;
+            this.armyloginbttn8.Click += new System.EventHandler(this.armyloginbttn8_Click);
             // 
-            // label19
+            // textBox8
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label19.Location = new System.Drawing.Point(136, 19);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(233, 23);
-            this.label19.TabIndex = 15;
-            this.label19.Text = "Welcome home soilder!";
+            this.textBox8.Location = new System.Drawing.Point(221, 230);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(256, 41);
+            this.textBox8.TabIndex = 5;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(221, 170);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(256, 41);
+            this.textBox7.TabIndex = 4;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(78, 245);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(118, 26);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Unique ID";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(86, 185);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(110, 26);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "Password";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(221, 110);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(256, 41);
+            this.textBox6.TabIndex = 1;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(81, 128);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(115, 26);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Username";
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel4.Controls.Add(this.label26);
             this.panel4.Controls.Add(this.label23);
             this.panel4.Controls.Add(this.armyfloginbttn9);
@@ -568,59 +585,27 @@ namespace The_Last_Soldier
             this.panel4.Size = new System.Drawing.Size(537, 378);
             this.panel4.TabIndex = 9;
             // 
-            // label20
+            // label26
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(52, 97);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(115, 26);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Username";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
+            this.label26.Location = new System.Drawing.Point(158, 33);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(210, 18);
+            this.label26.TabIndex = 16;
+            this.label26.Text = "of your army member has.";
             // 
-            // textBox9
+            // label23
             // 
-            this.textBox9.Location = new System.Drawing.Point(195, 87);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(267, 36);
-            this.textBox9.TabIndex = 1;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(57, 170);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(110, 26);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "Password";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(195, 160);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(267, 36);
-            this.textBox10.TabIndex = 3;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(49, 243);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(118, 26);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "Unique ID";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(195, 233);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(267, 36);
-            this.textBox11.TabIndex = 5;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
+            this.label23.Location = new System.Drawing.Point(136, 15);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(244, 18);
+            this.label23.TabIndex = 15;
+            this.label23.Text = "Please enter the same unique id";
             // 
             // armyfloginbttn9
             // 
@@ -636,19 +621,66 @@ namespace The_Last_Soldier
             this.armyfloginbttn9.Text = "Login";
             this.armyfloginbttn9.UseVisualStyleBackColor = false;
             // 
-            // label23
+            // textBox11
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label23.Location = new System.Drawing.Point(136, 15);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(244, 18);
-            this.label23.TabIndex = 15;
-            this.label23.Text = "Please enter the same unique id";
+            this.textBox11.Location = new System.Drawing.Point(195, 233);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(267, 36);
+            this.textBox11.TabIndex = 5;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(49, 243);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(118, 26);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Unique ID";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(195, 160);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(267, 36);
+            this.textBox10.TabIndex = 3;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(57, 170);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(110, 26);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "Password";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(195, 87);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(267, 36);
+            this.textBox9.TabIndex = 1;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(52, 97);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(115, 26);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Username";
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.panel5.Controls.Add(this.adimnloginbttn10);
             this.panel5.Controls.Add(this.textBox13);
             this.panel5.Controls.Add(this.label25);
@@ -658,42 +690,6 @@ namespace The_Last_Soldier
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(537, 378);
             this.panel5.TabIndex = 9;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(81, 102);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(92, 26);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "User ID";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(200, 90);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(270, 42);
-            this.textBox12.TabIndex = 1;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(63, 199);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(110, 26);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Password";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(200, 183);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(270, 42);
-            this.textBox13.TabIndex = 3;
             // 
             // adimnloginbttn10
             // 
@@ -709,21 +705,49 @@ namespace The_Last_Soldier
             this.adimnloginbttn10.Text = "Login";
             this.adimnloginbttn10.UseVisualStyleBackColor = false;
             // 
-            // label26
+            // textBox13
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label26.Location = new System.Drawing.Point(158, 33);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(210, 18);
-            this.label26.TabIndex = 16;
-            this.label26.Text = "of your army member has.";
+            this.textBox13.Location = new System.Drawing.Point(200, 183);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(270, 42);
+            this.textBox13.TabIndex = 3;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(63, 199);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(110, 26);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Password";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(200, 90);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(270, 42);
+            this.textBox12.TabIndex = 1;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(81, 102);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(92, 26);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "User ID";
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(22)))));
             this.ClientSize = new System.Drawing.Size(1015, 667);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
@@ -742,6 +766,7 @@ namespace The_Last_Soldier
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Last Soldier";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.LeftPanel1.ResumeLayout(false);
             this.LeftPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
