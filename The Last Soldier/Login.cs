@@ -83,7 +83,7 @@ namespace The_Last_Soldier
             scon.Open();
             SqlCommand cmd = scon.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into User_info_family values('" +textBox1.Text+"', '"+textBox2.Text+ "', '" + textBox3.Text + "', '" + textBox4.Text + "')";
+            cmd.CommandText = "insert into User_info_family values('" + textBox1.Text + "', '"+textBox2.Text+"', '"+textBox3.Text+"', '"+textBox4.Text+"')";
             cmd.ExecuteNonQuery();
             scon.Close();
             textBox1.Text = "";
@@ -96,7 +96,7 @@ namespace The_Last_Soldier
         private void armyfloginbttn9_Click(object sender, EventArgs e)
         {
             scon.Open();
-            string quee = "select * from User_info_family where FNAME ='" + textBox9.Text.Trim() + "', PASS ='" + textBox10.Text.Trim() + "', UNIQUE_ID = '" + textBox11.Text.Trim() + "'";
+            string quee = "select * from User_info_family where FNAME = '" + textBox9.Text.Trim() + "' and PASS = '" + textBox10.Text.Trim() + "' and UNIQUE_ID = '" + textBox11.Text.Trim()+"'";
             SqlCommand cmd = new SqlCommand(quee, scon);
             SqlDataAdapter sdaa = new SqlDataAdapter(quee, scon);
             DataTable dtt = new DataTable();

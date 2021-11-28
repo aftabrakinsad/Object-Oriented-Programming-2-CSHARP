@@ -84,6 +84,7 @@ namespace The_Last_Soldier
             this.label25 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.LeftPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -262,7 +263,7 @@ namespace The_Last_Soldier
             this.panel1.Controls.Add(this.armymanf_bttn_5);
             this.panel1.Controls.Add(this.armyman_bttn_4);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(452, 277);
+            this.panel1.Location = new System.Drawing.Point(452, 274);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(537, 378);
             this.panel1.TabIndex = 9;
@@ -820,6 +821,7 @@ namespace The_Last_Soldier
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
