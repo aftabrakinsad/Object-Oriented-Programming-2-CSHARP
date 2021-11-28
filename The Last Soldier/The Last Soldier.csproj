@@ -52,11 +52,11 @@
     <Compile Include="Armyman.Designer.cs">
       <DependentUpon>Armyman.cs</DependentUpon>
     </Compile>
-    <Compile Include="armymanfamily.cs">
+    <Compile Include="Armymanfamily.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="armymanfamily.Designer.cs">
-      <DependentUpon>armymanfamily.cs</DependentUpon>
+    <Compile Include="Armymanfamily.Designer.cs">
+      <DependentUpon>Armymanfamily.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -68,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Armyman.resx">
       <DependentUpon>Armyman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Armymanfamily.resx">
+      <DependentUpon>Armymanfamily.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

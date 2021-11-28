@@ -103,7 +103,7 @@ namespace The_Last_Soldier
             sdaa.Fill(dtt);
             if (dtt.Rows.Count == 1)
             {
-                armymanfamily arf = new armymanfamily();
+                Armymanfamily arf = new Armymanfamily();
                 this.Hide();
                 arf.Show();
             }
