@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace The_Last_Soldier
 {
     public partial class Armyman : Form
     {
+        SqlConnection scon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\OBJECT ORIENTED PROGRAMMING 2\Project\DataBase\ArmyManInfo.mdf;Integrated Security=True;Connect Timeout=30");
         public Armyman()
         {
             InitializeComponent();
@@ -19,13 +21,7 @@ namespace The_Last_Soldier
 
         private void editpic_bttn1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog fileo = new OpenFileDialog();
-            fileo.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
-
-            if (fileo.ShowDialog() == DialogResult.OK)
-            {
-                pictureBox1.Image = new Bitmap(fileo.FileName);
-            }
+          
         }
 
         private void armymanexit_bttn_Click(object sender, EventArgs e)
@@ -46,6 +42,11 @@ namespace The_Last_Soldier
         private void button3_Click(object sender, EventArgs e)
         {
             panel3.BringToFront();
+        }
+
+        private void Armyman_Load(object sender, EventArgs e)
+        {
+          
         }
     }
 }

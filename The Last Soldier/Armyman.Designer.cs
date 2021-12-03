@@ -204,14 +204,12 @@ namespace The_Last_Soldier
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(182, 413);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 22);
+            this.label6.Size = new System.Drawing.Size(159, 22);
             this.label6.TabIndex = 8;
-            this.label6.Text = "20419911";
             // 
             // label5
             // 
@@ -226,14 +224,12 @@ namespace The_Last_Soldier
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(182, 375);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 22);
+            this.label4.Size = new System.Drawing.Size(180, 22);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Rakin Sad Aftab";
             // 
             // label3
             // 
@@ -704,6 +700,7 @@ namespace The_Last_Soldier
             this.Name = "Armyman";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Last Soldier";
+            this.Load += new System.EventHandler(this.Armyman_Load);
             this.Leftpanel1.ResumeLayout(false);
             this.Leftpanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

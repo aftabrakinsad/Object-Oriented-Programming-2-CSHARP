@@ -263,7 +263,7 @@ namespace The_Last_Soldier
             this.panel1.Controls.Add(this.armymanf_bttn_5);
             this.panel1.Controls.Add(this.armyman_bttn_4);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(452, 274);
+            this.panel1.Location = new System.Drawing.Point(452, 277);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(537, 378);
             this.panel1.TabIndex = 9;
