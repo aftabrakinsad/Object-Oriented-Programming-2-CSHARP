@@ -19,9 +19,21 @@ namespace The_Last_Soldier
             InitializeComponent();
         }
 
+        private void Armyman_Load(object sender, EventArgs e)
+        {
+            label4.Text = Login.username;
+            label6.Text = Login.id;
+        }
+
         private void editpic_bttn1_Click(object sender, EventArgs e)
         {
-          
+            OpenFileDialog fileo = new OpenFileDialog();
+            fileo.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
+
+            if (fileo.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = new Bitmap(fileo.FileName);
+            }
         }
 
         private void armymanexit_bttn_Click(object sender, EventArgs e)
@@ -44,9 +56,45 @@ namespace The_Last_Soldier
             panel3.BringToFront();
         }
 
-        private void Armyman_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-          
+            panel4.BringToFront();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            scon.Open();
+            string que = "INSERT INTO MISSION (Uni_id, MISSION_NAME) VALUES ('"+textBox1.Text.Trim()+"', '"+comboBox1.SelectedItem+"')";
+            SqlCommand scmd = new SqlCommand(que, scon);
+            scmd.ExecuteNonQuery();
+            MessageBox.Show("Registered");
+            scon.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Login rl = new Login();
+            MessageBox.Show("Logged Out");
+            this.Close();
+            rl.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            scon.Open();
+            SqlCommand cmd = scon.CreateCommand();
+            var Image_c = new ImageConverter().ConvertTo(pictureBox1.Image, typeof(Byte[]));
+            cmd.Parameters.AddWithValue("@Image_c", Image_c);
+            cmd.CommandText = "INSERT INTO Image_collection (Uni_id, Image_c) Values ('"+label6.Text.Trim()+"' ,@Image_c)";
+
+            if(cmd.ExecuteNonQuery()>0)
+            {
+                MessageBox.Show("Added");
+            }
+            else
+            {
+                MessageBox.Show("Try Again!");
+            }
+            scon.Close();        }
     }
 }

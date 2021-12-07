@@ -13,6 +13,8 @@ namespace The_Last_Soldier
 {
     public partial class Login : Form
     {
+        public static string username, id;
+
         SqlConnection scon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\OBJECT ORIENTED PROGRAMMING 2\Project\DataBase\ArmyManInfo.mdf;Integrated Security=True;Connect Timeout=30");
         
         public Login()
@@ -57,6 +59,8 @@ namespace The_Last_Soldier
 
         private void armyloginbttn8_Click(object sender, EventArgs e)
         {
+            username = textBox6.Text;
+            id = textBox8.Text;
             scon.Open();
             string que = "select * from Armyman_info where Username ='" + textBox6.Text.Trim() + "' and PASS ='"+textBox7.Text.Trim()+ "' and Uni_id = '"+textBox8.Text.Trim()+"'";
             SqlCommand cmd = new SqlCommand(que, scon);
@@ -73,7 +77,6 @@ namespace The_Last_Soldier
             {
                 MessageBox.Show("Invalid Username, Password or Unique id");
             }
-
             cmd.ExecuteNonQuery();
             scon.Close();
         }
@@ -91,10 +94,13 @@ namespace The_Last_Soldier
             textBox3.Text = "";
             textBox4.Text = "";
             MessageBox.Show("Successfully Registered!");
+            scon.Close();
         }
 
         private void armyfloginbttn9_Click(object sender, EventArgs e)
         {
+            username = textBox9.Text;
+            id = textBox11.Text;
             scon.Open();
             string quee = "select * from User_info_family where FNAME = '" + textBox9.Text.Trim() + "' and PASS = '" + textBox10.Text.Trim() + "' and UNIQUE_ID = '" + textBox11.Text.Trim()+"'";
             SqlCommand cmd = new SqlCommand(quee, scon);

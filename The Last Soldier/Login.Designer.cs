@@ -84,7 +84,6 @@ namespace The_Last_Soldier
             this.label25 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.LeftPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -107,6 +106,7 @@ namespace The_Last_Soldier
             this.LeftPanel1.Controls.Add(this.label1);
             this.LeftPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.LeftPanel1.Location = new System.Drawing.Point(0, 0);
+            this.LeftPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LeftPanel1.Name = "LeftPanel1";
             this.LeftPanel1.Size = new System.Drawing.Size(405, 667);
             this.LeftPanel1.TabIndex = 0;
@@ -128,7 +128,7 @@ namespace The_Last_Soldier
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(107, 499);
+            this.label6.Location = new System.Drawing.Point(107, 498);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(180, 21);
             this.label6.TabIndex = 7;
@@ -164,7 +164,7 @@ namespace The_Last_Soldier
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(38, 351);
+            this.label3.Location = new System.Drawing.Point(37, 351);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(326, 35);
             this.label3.TabIndex = 4;
@@ -175,8 +175,9 @@ namespace The_Last_Soldier
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(120, 175);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 125);
+            this.pictureBox1.Size = new System.Drawing.Size(132, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -211,6 +212,7 @@ namespace The_Last_Soldier
             this.button1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(964, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(53, 37);
             this.button1.TabIndex = 1;
@@ -235,7 +237,7 @@ namespace The_Last_Soldier
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(506, 78);
+            this.label9.Location = new System.Drawing.Point(507, 78);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(425, 23);
             this.label9.TabIndex = 6;
@@ -248,7 +250,8 @@ namespace The_Last_Soldier
             this.register_bttn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.register_bttn_3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register_bttn_3.ForeColor = System.Drawing.Color.White;
-            this.register_bttn_3.Location = new System.Drawing.Point(795, 168);
+            this.register_bttn_3.Location = new System.Drawing.Point(795, 167);
+            this.register_bttn_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.register_bttn_3.Name = "register_bttn_3";
             this.register_bttn_3.Size = new System.Drawing.Size(136, 59);
             this.register_bttn_3.TabIndex = 8;
@@ -264,6 +267,7 @@ namespace The_Last_Soldier
             this.panel1.Controls.Add(this.armyman_bttn_4);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Location = new System.Drawing.Point(452, 277);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(537, 378);
             this.panel1.TabIndex = 9;
@@ -275,8 +279,9 @@ namespace The_Last_Soldier
             this.admin_bttn_6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.admin_bttn_6.ForeColor = System.Drawing.Color.White;
             this.admin_bttn_6.Location = new System.Drawing.Point(200, 266);
+            this.admin_bttn_6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.admin_bttn_6.Name = "admin_bttn_6";
-            this.admin_bttn_6.Size = new System.Drawing.Size(166, 75);
+            this.admin_bttn_6.Size = new System.Drawing.Size(165, 75);
             this.admin_bttn_6.TabIndex = 11;
             this.admin_bttn_6.Text = "Admin";
             this.admin_bttn_6.UseVisualStyleBackColor = false;
@@ -289,8 +294,9 @@ namespace The_Last_Soldier
             this.armymanf_bttn_5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.armymanf_bttn_5.ForeColor = System.Drawing.Color.White;
             this.armymanf_bttn_5.Location = new System.Drawing.Point(200, 186);
+            this.armymanf_bttn_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.armymanf_bttn_5.Name = "armymanf_bttn_5";
-            this.armymanf_bttn_5.Size = new System.Drawing.Size(166, 75);
+            this.armymanf_bttn_5.Size = new System.Drawing.Size(165, 75);
             this.armymanf_bttn_5.TabIndex = 10;
             this.armymanf_bttn_5.Text = "Army Man\r\n(family)";
             this.armymanf_bttn_5.UseVisualStyleBackColor = false;
@@ -302,9 +308,10 @@ namespace The_Last_Soldier
             this.armyman_bttn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.armyman_bttn_4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.armyman_bttn_4.ForeColor = System.Drawing.Color.White;
-            this.armyman_bttn_4.Location = new System.Drawing.Point(200, 104);
+            this.armyman_bttn_4.Location = new System.Drawing.Point(200, 103);
+            this.armyman_bttn_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.armyman_bttn_4.Name = "armyman_bttn_4";
-            this.armyman_bttn_4.Size = new System.Drawing.Size(166, 75);
+            this.armyman_bttn_4.Size = new System.Drawing.Size(165, 75);
             this.armyman_bttn_4.TabIndex = 9;
             this.armyman_bttn_4.Text = "Army Man";
             this.armyman_bttn_4.UseVisualStyleBackColor = false;
@@ -315,7 +322,7 @@ namespace The_Last_Soldier
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(55, 45);
+            this.label10.Location = new System.Drawing.Point(55, 46);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(146, 31);
             this.label10.TabIndex = 0;
@@ -335,6 +342,7 @@ namespace The_Last_Soldier
             this.panel2.Controls.Add(this.label11);
             this.panel2.ForeColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(452, 277);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(537, 378);
             this.panel2.TabIndex = 12;
@@ -346,6 +354,7 @@ namespace The_Last_Soldier
             this.mregister_bttn_7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mregister_bttn_7.ForeColor = System.Drawing.Color.White;
             this.mregister_bttn_7.Location = new System.Drawing.Point(239, 319);
+            this.mregister_bttn_7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mregister_bttn_7.Name = "mregister_bttn_7";
             this.mregister_bttn_7.Size = new System.Drawing.Size(219, 41);
             this.mregister_bttn_7.TabIndex = 12;
@@ -356,6 +365,7 @@ namespace The_Last_Soldier
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(239, 249);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(259, 36);
@@ -364,6 +374,7 @@ namespace The_Last_Soldier
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(239, 183);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(259, 36);
@@ -371,7 +382,8 @@ namespace The_Last_Soldier
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(239, 115);
+            this.textBox2.Location = new System.Drawing.Point(239, 114);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(259, 36);
@@ -412,7 +424,8 @@ namespace The_Last_Soldier
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(239, 45);
+            this.textBox1.Location = new System.Drawing.Point(239, 46);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 36);
@@ -436,7 +449,8 @@ namespace The_Last_Soldier
             this.loginbttn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginbttn2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginbttn2.ForeColor = System.Drawing.Color.White;
-            this.loginbttn2.Location = new System.Drawing.Point(510, 168);
+            this.loginbttn2.Location = new System.Drawing.Point(509, 167);
+            this.loginbttn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginbttn2.Name = "loginbttn2";
             this.loginbttn2.Size = new System.Drawing.Size(136, 59);
             this.loginbttn2.TabIndex = 13;
@@ -457,6 +471,7 @@ namespace The_Last_Soldier
             this.panel3.Controls.Add(this.label16);
             this.panel3.ForeColor = System.Drawing.Color.White;
             this.panel3.Location = new System.Drawing.Point(452, 277);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(537, 378);
             this.panel3.TabIndex = 9;
@@ -466,7 +481,7 @@ namespace The_Last_Soldier
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label19.Location = new System.Drawing.Point(136, 19);
+            this.label19.Location = new System.Drawing.Point(136, 18);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(233, 23);
             this.label19.TabIndex = 15;
@@ -479,9 +494,10 @@ namespace The_Last_Soldier
             this.armyloginbttn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.armyloginbttn8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.armyloginbttn8.ForeColor = System.Drawing.Color.White;
-            this.armyloginbttn8.Location = new System.Drawing.Point(222, 298);
+            this.armyloginbttn8.Location = new System.Drawing.Point(221, 298);
+            this.armyloginbttn8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.armyloginbttn8.Name = "armyloginbttn8";
-            this.armyloginbttn8.Size = new System.Drawing.Size(189, 45);
+            this.armyloginbttn8.Size = new System.Drawing.Size(189, 46);
             this.armyloginbttn8.TabIndex = 14;
             this.armyloginbttn8.Text = "Login";
             this.armyloginbttn8.UseVisualStyleBackColor = false;
@@ -490,6 +506,7 @@ namespace The_Last_Soldier
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(221, 230);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(256, 41);
@@ -498,6 +515,7 @@ namespace The_Last_Soldier
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(221, 170);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(256, 41);
@@ -509,7 +527,7 @@ namespace The_Last_Soldier
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(78, 245);
+            this.label18.Location = new System.Drawing.Point(77, 245);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(118, 26);
             this.label18.TabIndex = 3;
@@ -521,7 +539,7 @@ namespace The_Last_Soldier
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
             this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(86, 185);
+            this.label17.Location = new System.Drawing.Point(85, 185);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(110, 26);
             this.label17.TabIndex = 2;
@@ -530,6 +548,7 @@ namespace The_Last_Soldier
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(221, 110);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(256, 41);
@@ -560,6 +579,7 @@ namespace The_Last_Soldier
             this.panel4.Controls.Add(this.textBox9);
             this.panel4.Controls.Add(this.label20);
             this.panel4.Location = new System.Drawing.Point(452, 277);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(537, 378);
             this.panel4.TabIndex = 9;
@@ -569,7 +589,7 @@ namespace The_Last_Soldier
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label26.Location = new System.Drawing.Point(158, 33);
+            this.label26.Location = new System.Drawing.Point(157, 33);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(210, 18);
             this.label26.TabIndex = 16;
@@ -594,8 +614,9 @@ namespace The_Last_Soldier
             this.armyfloginbttn9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.armyfloginbttn9.ForeColor = System.Drawing.Color.White;
             this.armyfloginbttn9.Location = new System.Drawing.Point(195, 305);
+            this.armyfloginbttn9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.armyfloginbttn9.Name = "armyfloginbttn9";
-            this.armyfloginbttn9.Size = new System.Drawing.Size(238, 49);
+            this.armyfloginbttn9.Size = new System.Drawing.Size(237, 49);
             this.armyfloginbttn9.TabIndex = 14;
             this.armyfloginbttn9.Text = "Login";
             this.armyfloginbttn9.UseVisualStyleBackColor = false;
@@ -604,6 +625,7 @@ namespace The_Last_Soldier
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(195, 233);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(267, 36);
@@ -614,7 +636,7 @@ namespace The_Last_Soldier
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(49, 243);
+            this.label22.Location = new System.Drawing.Point(49, 242);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(118, 26);
             this.label22.TabIndex = 4;
@@ -623,6 +645,7 @@ namespace The_Last_Soldier
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(195, 160);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(267, 36);
@@ -642,6 +665,7 @@ namespace The_Last_Soldier
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(195, 87);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(267, 36);
@@ -667,6 +691,7 @@ namespace The_Last_Soldier
             this.panel5.Controls.Add(this.textBox12);
             this.panel5.Controls.Add(this.label24);
             this.panel5.Location = new System.Drawing.Point(452, 277);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(537, 378);
             this.panel5.TabIndex = 9;
@@ -679,6 +704,7 @@ namespace The_Last_Soldier
             this.adimnloginbttn10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adimnloginbttn10.ForeColor = System.Drawing.Color.White;
             this.adimnloginbttn10.Location = new System.Drawing.Point(200, 274);
+            this.adimnloginbttn10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.adimnloginbttn10.Name = "adimnloginbttn10";
             this.adimnloginbttn10.Size = new System.Drawing.Size(136, 59);
             this.adimnloginbttn10.TabIndex = 14;
@@ -688,9 +714,10 @@ namespace The_Last_Soldier
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(200, 183);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(270, 42);
+            this.textBox13.Size = new System.Drawing.Size(271, 42);
             this.textBox13.TabIndex = 3;
             // 
             // label25
@@ -707,9 +734,10 @@ namespace The_Last_Soldier
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(200, 90);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(270, 42);
+            this.textBox12.Size = new System.Drawing.Size(271, 42);
             this.textBox12.TabIndex = 1;
             // 
             // label24
@@ -743,6 +771,7 @@ namespace The_Last_Soldier
             this.Controls.Add(this.LeftPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Last Soldier";
@@ -821,7 +850,6 @@ namespace The_Last_Soldier
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
