@@ -63,18 +63,46 @@ namespace The_Last_Soldier
 
         private void button5_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            string que = "INSERT INTO MISSION (Uni_id, MISSION_NAME) VALUES ('"+textBox1.Text.Trim()+"', '"+comboBox1.SelectedItem+"')";
-            SqlCommand scmd = new SqlCommand(que, scon);
-            scmd.ExecuteNonQuery();
-            MessageBox.Show("Registered");
-            scon.Close();
+            if (checkuniid() == true)
+            {
+                MessageBox.Show("Already Registered!");
+            }
+            else
+            {
+                scon.Open();
+                string que = "INSERT INTO MISSION (Uni_id, MISSION_NAME) VALUES ('" + textBox1.Text.Trim() + "', '" + comboBox1.SelectedItem + "')";
+                SqlCommand scmd = new SqlCommand(que, scon);
+                scmd.ExecuteNonQuery();
+                MessageBox.Show("Registered");
+                scon.Close();
+            }
         }
 
+        private Boolean checkuniid()
+        {
+            Boolean uniidavaliable = false;
+            scon.Open();
+            string que = "SELECT * FROM MISSION WHERE Uni_id = '"+textBox1.Text+"'";
+            SqlCommand scmd = new SqlCommand(que, scon);
+            scmd.CommandText = que;
+            scmd.Connection = scon;
+            SqlDataAdapter sda = new SqlDataAdapter();
+            sda.SelectCommand = scmd;
+            DataSet sd = new DataSet();
+            sda.Fill(sd);
+            if(sd.Tables[0].Rows.Count > 0)
+            {
+                uniidavaliable = true;
+            }
+            scon.Close();
+
+            return uniidavaliable;
+        }
         private void button6_Click(object sender, EventArgs e)
         {
             Login rl = new Login();
             MessageBox.Show("Logged Out");
+
             this.Close();
             rl.Show();
         }
@@ -95,6 +123,7 @@ namespace The_Last_Soldier
             {
                 MessageBox.Show("Try Again!");
             }
-            scon.Close();        }
+            scon.Close();       
+        }
     }
 }

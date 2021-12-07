@@ -31,11 +31,14 @@ namespace The_Last_Soldier
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Armyman));
             this.Leftpanel1 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.editpic_bttn1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -79,17 +82,14 @@ namespace The_Last_Soldier
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.editpic_bttn1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.Leftpanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Leftpanel1
@@ -109,6 +109,22 @@ namespace The_Last_Soldier
             this.Leftpanel1.Name = "Leftpanel1";
             this.Leftpanel1.Size = new System.Drawing.Size(405, 667);
             this.Leftpanel1.TabIndex = 0;
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(137, 320);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(132, 33);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Save picture";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -142,6 +158,22 @@ namespace The_Last_Soldier
             this.label4.Size = new System.Drawing.Size(194, 22);
             this.label4.TabIndex = 6;
             // 
+            // editpic_bttn1
+            // 
+            this.editpic_bttn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.editpic_bttn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.editpic_bttn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editpic_bttn1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editpic_bttn1.ForeColor = System.Drawing.Color.White;
+            this.editpic_bttn1.Location = new System.Drawing.Point(137, 282);
+            this.editpic_bttn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.editpic_bttn1.Name = "editpic_bttn1";
+            this.editpic_bttn1.Size = new System.Drawing.Size(132, 33);
+            this.editpic_bttn1.TabIndex = 4;
+            this.editpic_bttn1.Text = "Edit picture";
+            this.editpic_bttn1.UseVisualStyleBackColor = true;
+            this.editpic_bttn1.Click += new System.EventHandler(this.editpic_bttn1_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -164,6 +196,17 @@ namespace The_Last_Soldier
             this.label1.Size = new System.Drawing.Size(313, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "In War, In Peace We are Everywhere";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Location = new System.Drawing.Point(137, 151);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(132, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -618,16 +661,18 @@ namespace The_Last_Soldier
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "OBH",
             "OLMS",
             "OTL"});
-            this.comboBox1.Location = new System.Drawing.Point(336, 235);
+            this.comboBox1.Location = new System.Drawing.Point(336, 232);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(134, 23);
+            this.comboBox1.Size = new System.Drawing.Size(135, 30);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.Text = "select";
             // 
@@ -678,59 +723,17 @@ namespace The_Last_Soldier
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.OliveDrab;
+            this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(336, 354);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 34);
+            this.button5.Size = new System.Drawing.Size(135, 38);
             this.button5.TabIndex = 15;
             this.button5.Text = "Confirm";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // editpic_bttn1
-            // 
-            this.editpic_bttn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.editpic_bttn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.editpic_bttn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editpic_bttn1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editpic_bttn1.ForeColor = System.Drawing.Color.White;
-            this.editpic_bttn1.Location = new System.Drawing.Point(137, 282);
-            this.editpic_bttn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.editpic_bttn1.Name = "editpic_bttn1";
-            this.editpic_bttn1.Size = new System.Drawing.Size(132, 33);
-            this.editpic_bttn1.TabIndex = 4;
-            this.editpic_bttn1.Text = "Edit picture";
-            this.editpic_bttn1.UseVisualStyleBackColor = true;
-            this.editpic_bttn1.Click += new System.EventHandler(this.editpic_bttn1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(137, 151);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 125);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(137, 320);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(132, 33);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Save picture";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Armyman
             // 
@@ -760,6 +763,7 @@ namespace The_Last_Soldier
             this.Load += new System.EventHandler(this.Armyman_Load);
             this.Leftpanel1.ResumeLayout(false);
             this.Leftpanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -770,7 +774,6 @@ namespace The_Last_Soldier
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

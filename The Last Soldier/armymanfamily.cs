@@ -57,7 +57,6 @@ namespace The_Last_Soldier
         private void button3_Click(object sender, EventArgs e)
         {
             display();
-            display2();
         }
         
         public void display()
@@ -65,27 +64,13 @@ namespace The_Last_Soldier
             scon.Open();
             SqlCommand cmd = scon.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT Username, Uni_id, Statuss FROM Armyman_info WHERE Uni_id = '"+ textBox1 .Text.Trim()+ "'";
+            //cmd.CommandText = "SELECT Username, Uni_id, Statuss FROM Armyman_info WHERE Uni_id = '"+ textBox1 .Text.Trim()+ "'";
+            cmd.CommandText = "SELECT Name, Location, Status, Mission FROM ARMY WHERE Name = '" + textBox1.Text.Trim() + "'";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter sd = new SqlDataAdapter(cmd);
             sd.Fill(dt);
             dataGridView1.DataSource = dt;
-            scon.Close();
-        }
-
-        public void display2()
-        {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT MISSION_NAME FROM MISSION WHERE Uni_id = '" + textBox1.Text.Trim() + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter sd = new SqlDataAdapter(cmd);
-            sd.Fill(dt);
-
-            dataGridView2.DataSource = dt;
             scon.Close();
         }
 

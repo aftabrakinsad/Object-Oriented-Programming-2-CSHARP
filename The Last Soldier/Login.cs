@@ -62,7 +62,7 @@ namespace The_Last_Soldier
             username = textBox6.Text;
             id = textBox8.Text;
             scon.Open();
-            string que = "select * from Armyman_info where Username ='" + textBox6.Text.Trim() + "' and PASS ='"+textBox7.Text.Trim()+ "' and Uni_id = '"+textBox8.Text.Trim()+"'";
+            string que = "select * from ArmyManLogin where Username ='" + textBox6.Text.Trim() + "' and PASS ='"+textBox7.Text.Trim()+ "' and Uni_id = '"+textBox8.Text.Trim()+"'";
             SqlCommand cmd = new SqlCommand(que, scon);
             SqlDataAdapter sda = new SqlDataAdapter(que, scon);
             DataTable dt = new DataTable();
