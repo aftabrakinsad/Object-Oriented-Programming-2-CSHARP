@@ -98,6 +98,7 @@ namespace The_Last_Soldier
 
             return uniidavaliable;
         }
+
         private void button6_Click(object sender, EventArgs e)
         {
             Login rl = new Login();
