@@ -288,9 +288,9 @@ namespace The_Last_Soldier
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
             this.label8.Location = new System.Drawing.Point(184, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(170, 22);
+            this.label8.Size = new System.Drawing.Size(209, 22);
             this.label8.TabIndex = 2;
-            this.label8.Text = "Search by the Name";
+            this.label8.Text = "Search by the Unique ID";
             // 
             // textBox1
             // 
@@ -328,8 +328,8 @@ namespace The_Last_Soldier
             this.Controls.Add(this.label15);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LeftPanel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

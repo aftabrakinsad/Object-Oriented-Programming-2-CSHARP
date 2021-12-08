@@ -63,25 +63,46 @@ namespace The_Last_Soldier
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (checkuniid() == true)
+            scon.Open();
+            string que = "select * from ArmyManLogin where Uni_id = '" + textBox1.Text.Trim() + "'";
+            SqlCommand cmd = new SqlCommand(que, scon);
+            SqlDataAdapter sda = new SqlDataAdapter(que, scon);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            if(string.IsNullOrEmpty(textBox1.Text) == true)
             {
-                MessageBox.Show("Already Registered!");
+                MessageBox.Show("Please Enter Your ID");
+            }
+            else if(comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Please Select Mission Name");
+            }
+            else if (dt.Rows.Count == 1)
+            {
+                if (checkuniid() == true)
+                {
+                    MessageBox.Show("Already Registered! You can't Register Again");
+                }
+                else
+                {
+                    scon.Open();
+                    string quee = "INSERT INTO MISSION (Uni_id, MISSION_NAME) VALUES ('" + textBox1.Text.Trim() + "', '" + comboBox1.SelectedItem + "')";
+                    SqlCommand scmd = new SqlCommand(quee, scon);
+                    MessageBox.Show("Registered");
+                    scmd.ExecuteNonQuery();
+                    scon.Close();
+                }
             }
             else
             {
-                scon.Open();
-                string que = "INSERT INTO MISSION (Uni_id, MISSION_NAME) VALUES ('" + textBox1.Text.Trim() + "', '" + comboBox1.SelectedItem + "')";
-                SqlCommand scmd = new SqlCommand(que, scon);
-                scmd.ExecuteNonQuery();
-                MessageBox.Show("Registered");
-                scon.Close();
+                MessageBox.Show("Wrong ID");
             }
+            scon.Close();
         }
 
         private Boolean checkuniid()
         {
             Boolean uniidavaliable = false;
-            scon.Open();
             string que = "SELECT * FROM MISSION WHERE Uni_id = '"+textBox1.Text+"'";
             SqlCommand scmd = new SqlCommand(que, scon);
             scmd.CommandText = que;
@@ -103,7 +124,6 @@ namespace The_Last_Soldier
         {
             Login rl = new Login();
             MessageBox.Show("Logged Out");
-
             this.Close();
             rl.Show();
         }
