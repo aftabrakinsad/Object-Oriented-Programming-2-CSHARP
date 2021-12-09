@@ -24,17 +24,6 @@ namespace The_Last_Soldier
             System.Windows.Forms.Application.Exit();
         }
 
-        private void editpic_bttn2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog fileo = new OpenFileDialog();
-            fileo.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
-
-            if (fileo.ShowDialog() == DialogResult.OK)
-            {
-                pictureBox1.Image = new Bitmap(fileo.FileName);
-            }
-        }
-
         private void armymanf_bttn_2_Click(object sender, EventArgs e)
         {
             panel1.BringToFront();
@@ -71,12 +60,12 @@ namespace The_Last_Soldier
             scon.Open();
             SqlCommand cmd = scon.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT Name, Location, Status, Mission FROM ARMY WHERE UniqueID = '" + textBox1.Text.Trim() + "'";
-            cmd.ExecuteNonQuery();
+            cmd.CommandText = "SELECT Name, Location, Status, Mission FROM ARMY WHERE ID = '" + textBox1.Text.Trim() + "'";
             DataTable dt = new DataTable();
             SqlDataAdapter sd = new SqlDataAdapter(cmd);
             sd.Fill(dt);
             dataGridView1.DataSource = dt;
+            cmd.ExecuteNonQuery();
             scon.Close();
         }
 

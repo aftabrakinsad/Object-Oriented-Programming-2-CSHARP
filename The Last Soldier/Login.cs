@@ -413,6 +413,28 @@ namespace The_Last_Soldier
             }
         }
 
+        private void adimnloginbttn10_Click(object sender, EventArgs e)
+        {
+            scon.Open();
+            string que = "SELECT * FROM AdminA WHERE User_id = '"+ textBox12.Text.Trim()+ "' and PASS = '"+ textBox13.Text.Trim()+ "'";
+            SqlCommand cmd = new SqlCommand(que, scon);
+            SqlDataAdapter sdaa = new SqlDataAdapter(que, scon);
+            DataTable dtt = new DataTable();
+            sdaa.Fill(dtt);
+
+            if (dtt.Rows.Count == 1)
+            {
+                Admin ad = new Admin();
+                this.Hide();
+                ad.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Userid or Password");
+            }
+
+        }
+
         private void armyfloginbttn9_Click(object sender, EventArgs e)
         {
             username = textBox9.Text;

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 using System.Data.SqlClient;
 
 namespace The_Last_Soldier
@@ -14,6 +15,8 @@ namespace The_Last_Soldier
     public partial class Armyman : Form
     {
         SqlConnection scon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\OBJECT ORIENTED PROGRAMMING 2\Project\DataBase\ArmyManInfo.mdf;Integrated Security=True;Connect Timeout=30");
+        private OpenFileDialog openFileDialog;
+        private string fileExtension;
         public Armyman()
         {
             InitializeComponent();
@@ -23,17 +26,6 @@ namespace The_Last_Soldier
         {
             label4.Text = Login.username;
             label6.Text = Login.id;
-        }
-
-        private void editpic_bttn1_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog fileo = new OpenFileDialog();
-            fileo.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
-
-            if (fileo.ShowDialog() == DialogResult.OK)
-            {
-                pictureBox1.Image = new Bitmap(fileo.FileName);
-            }
         }
 
         private void armymanexit_bttn_Click(object sender, EventArgs e)
@@ -126,25 +118,6 @@ namespace The_Last_Soldier
             MessageBox.Show("Logged Out");
             this.Close();
             rl.Show();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            var Image_c = new ImageConverter().ConvertTo(pictureBox1.Image, typeof(Byte[]));
-            cmd.Parameters.AddWithValue("@Image_c", Image_c);
-            cmd.CommandText = "INSERT INTO Image_collection (Uni_id, Image_c) Values ('"+label6.Text.Trim()+"' ,@Image_c)";
-
-            if(cmd.ExecuteNonQuery()>0)
-            {
-                MessageBox.Show("Added");
-            }
-            else
-            {
-                MessageBox.Show("Try Again!");
-            }
-            scon.Close();       
         }
     }
 }

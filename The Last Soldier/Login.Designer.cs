@@ -986,6 +986,7 @@ namespace The_Last_Soldier
             this.adimnloginbttn10.TabIndex = 14;
             this.adimnloginbttn10.Text = "Login";
             this.adimnloginbttn10.UseVisualStyleBackColor = false;
+            this.adimnloginbttn10.Click += new System.EventHandler(this.adimnloginbttn10_Click);
             // 
             // textBox13
             // 
