@@ -15,8 +15,6 @@ namespace The_Last_Soldier
     public partial class Armyman : Form
     {
         SqlConnection scon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\OBJECT ORIENTED PROGRAMMING 2\Project\DataBase\ArmyManInfo.mdf;Integrated Security=True;Connect Timeout=30");
-        private OpenFileDialog openFileDialog;
-        private string fileExtension;
         public Armyman()
         {
             InitializeComponent();

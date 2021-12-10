@@ -65,7 +65,6 @@
     <Compile Include="Armymanfamily.Designer.cs">
       <DependentUpon>Armymanfamily.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
