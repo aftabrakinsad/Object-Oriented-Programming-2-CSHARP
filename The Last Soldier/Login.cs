@@ -69,15 +69,31 @@ namespace The_Last_Soldier
             SqlDataAdapter sda = new SqlDataAdapter(que, scon);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            if (dt.Rows.Count == 1)
+            if (string.IsNullOrEmpty(textBox6.Text) == true)
             {
-                Armyman ar = new Armyman();
-                this.Hide();
-                ar.Show();
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Username.");
+            }
+            else if (string.IsNullOrEmpty(textBox7.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else if (string.IsNullOrEmpty(textBox8.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Qnique ID.");
             }
             else
             {
-                MessageBox.Show("Invalid Username, Password or Unique id");
+                if (dt.Rows.Count == 1)
+                {
+                    Armyman ar = new Armyman();
+                    this.Hide();
+                    ar.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username, Password or Unique id");
+                }
             }
             cmd.ExecuteNonQuery();
             scon.Close();
@@ -91,18 +107,37 @@ namespace The_Last_Soldier
             }
             else
             {
-                scon.Open();
-                SqlCommand cmd = scon.CreateCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into User_info_family values('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text + "')";
-                cmd.ExecuteNonQuery();
-                scon.Close();
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "";
-                textBox4.Text = "";
-                MessageBox.Show("Successfully Registered!");
-                scon.Close();
+                if (string.IsNullOrEmpty(textBox1.Text) == true)
+                {
+                    MessageBox.Show("Please Fill Up all Details to Register.");
+                    MessageBox.Show("Please Enter Your Name.");
+                }
+                else if (string.IsNullOrEmpty(textBox2.Text) == true)
+                {
+                    MessageBox.Show("Please Enter Your Qnique ID.");
+                }
+                else if (string.IsNullOrEmpty(textBox3.Text) == true)
+                {
+                    MessageBox.Show("Please Enter Your Email.");
+                }
+                else if (string.IsNullOrEmpty(textBox3.Text) == true)
+                {
+                    MessageBox.Show("Please Enter Your Password.");
+                }
+                else
+                {
+                    scon.Open();
+                    SqlCommand cmd = scon.CreateCommand();
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = "insert into User_info_family values('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text + "')";
+                    cmd.ExecuteNonQuery();
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    MessageBox.Show("Successfully Registered!");
+                    scon.Close();
+                }
             }
         }
 
@@ -421,17 +456,29 @@ namespace The_Last_Soldier
             SqlDataAdapter sdaa = new SqlDataAdapter(que, scon);
             DataTable dtt = new DataTable();
             sdaa.Fill(dtt);
-
-            if (dtt.Rows.Count == 1)
+            if (string.IsNullOrEmpty(textBox12.Text) == true)
             {
-                Admin ad = new Admin();
-                this.Hide();
-                ad.Show();
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your User Id.");
+            }
+            else if (string.IsNullOrEmpty(textBox13.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
             }
             else
             {
-                MessageBox.Show("Invalid Userid or Password");
+                if (dtt.Rows.Count == 1)
+                {
+                    Admin ad = new Admin();
+                    this.Hide();
+                    ad.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Userid or Password");
+                }
             }
+            scon.Close();
 
         }
 
@@ -445,15 +492,31 @@ namespace The_Last_Soldier
             SqlDataAdapter sdaa = new SqlDataAdapter(quee, scon);
             DataTable dtt = new DataTable();
             sdaa.Fill(dtt);
-            if (dtt.Rows.Count == 1)
+            if (string.IsNullOrEmpty(textBox9.Text) == true)
             {
-                Armymanfamily arf = new Armymanfamily();
-                this.Hide();
-                arf.Show();
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox10.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else if (string.IsNullOrEmpty(textBox11.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Qnique ID.");
             }
             else
             {
-                MessageBox.Show("Invalid Username, Password or Unique id");
+                if (dtt.Rows.Count == 1)
+                {
+                    Armymanfamily arf = new Armymanfamily();
+                    this.Hide();
+                    arf.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username, Password or Unique id");
+                }
             }
 
             cmd.ExecuteNonQuery();

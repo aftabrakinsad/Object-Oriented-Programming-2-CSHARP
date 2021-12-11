@@ -31,29 +31,8 @@ namespace The_Last_Soldier
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Armyman));
             this.Leftpanel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -65,6 +44,27 @@ namespace The_Last_Soldier
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -81,12 +81,12 @@ namespace The_Last_Soldier
             this.label12 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.Leftpanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,73 +105,6 @@ namespace The_Last_Soldier
             this.Leftpanel1.Name = "Leftpanel1";
             this.Leftpanel1.Size = new System.Drawing.Size(405, 667);
             this.Leftpanel1.TabIndex = 0;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(137, 522);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(132, 50);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "Log Out";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(111, 391);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(194, 22);
-            this.label6.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(111, 356);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(194, 22);
-            this.label4.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(123, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "For Our Country";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(49, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(313, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "In War, In Peace We are Everywhere";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(137, 151);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 125);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -194,127 +127,6 @@ namespace The_Last_Soldier
             this.panel1.Size = new System.Drawing.Size(592, 532);
             this.panel1.TabIndex = 7;
             // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label24.Location = new System.Drawing.Point(461, 478);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(99, 22);
-            this.label24.TabIndex = 14;
-            this.label24.Text = "Read More";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(135)))), ((int)(((byte)(117)))));
-            this.label23.Location = new System.Drawing.Point(75, 398);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(132, 22);
-            this.label23.TabIndex = 13;
-            this.label23.Text = "17 / Apr / 2021";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label22.Location = new System.Drawing.Point(75, 370);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(348, 22);
-            this.label22.TabIndex = 12;
-            this.label22.Text = "the infections of COVID-19\'s second wave";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label21.Location = new System.Drawing.Point(75, 350);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(308, 22);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "steps as military personnel in tackling";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label20.Location = new System.Drawing.Point(75, 327);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(297, 22);
-            this.label20.TabIndex = 10;
-            this.label20.Text = "Instruction of CAS, BD Army on our";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(135)))), ((int)(((byte)(117)))));
-            this.label19.Location = new System.Drawing.Point(75, 214);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(128, 22);
-            this.label19.TabIndex = 9;
-            this.label19.Text = "30 / Jun / 2021";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label18.Location = new System.Drawing.Point(75, 192);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(207, 22);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "Allotment-2021 (DOHS)\r\n";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label17.Location = new System.Drawing.Point(75, 170);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(235, 22);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "General Instruction Plot/Flat\r\n";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(148)))), ((int)(((byte)(38)))));
-            this.label16.Location = new System.Drawing.Point(125, 96);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(350, 26);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "NEWS AND ANNOUNCEMENT";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(292, 43);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(128, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(167, 43);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(128, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(50)))));
@@ -327,50 +139,6 @@ namespace The_Last_Soldier
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(592, 532);
             this.panel2.TabIndex = 15;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label28.Location = new System.Drawing.Point(100, 303);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(208, 27);
-            this.label28.TabIndex = 10;
-            this.label28.Text = "Operation Thin Line";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label27.Location = new System.Drawing.Point(100, 236);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(295, 27);
-            this.label27.TabIndex = 9;
-            this.label27.Text = "Operation Last Man Standing";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
-            this.label26.Location = new System.Drawing.Point(100, 165);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(234, 27);
-            this.label26.TabIndex = 8;
-            this.label26.Text = "Operation Black Hours";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(148)))), ((int)(((byte)(38)))));
-            this.label25.Location = new System.Drawing.Point(175, 90);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(248, 26);
-            this.label25.TabIndex = 3;
-            this.label25.Text = "Available Missions List";
             // 
             // panel3
             // 
@@ -501,6 +269,238 @@ namespace The_Last_Soldier
             this.label29.Size = new System.Drawing.Size(218, 26);
             this.label29.TabIndex = 7;
             this.label29.Text = "Completed Missions";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label28.Location = new System.Drawing.Point(100, 303);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(208, 27);
+            this.label28.TabIndex = 10;
+            this.label28.Text = "Operation Thin Line";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label27.Location = new System.Drawing.Point(100, 236);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(295, 27);
+            this.label27.TabIndex = 9;
+            this.label27.Text = "Operation Last Man Standing";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label26.Location = new System.Drawing.Point(100, 165);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(234, 27);
+            this.label26.TabIndex = 8;
+            this.label26.Text = "Operation Black Hours";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(148)))), ((int)(((byte)(38)))));
+            this.label25.Location = new System.Drawing.Point(175, 90);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(248, 26);
+            this.label25.TabIndex = 3;
+            this.label25.Text = "Available Missions List";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label24.Location = new System.Drawing.Point(461, 478);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(99, 22);
+            this.label24.TabIndex = 14;
+            this.label24.Text = "Read More";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(135)))), ((int)(((byte)(117)))));
+            this.label23.Location = new System.Drawing.Point(75, 398);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(132, 22);
+            this.label23.TabIndex = 13;
+            this.label23.Text = "17 / Apr / 2021";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label22.Location = new System.Drawing.Point(75, 370);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(348, 22);
+            this.label22.TabIndex = 12;
+            this.label22.Text = "the infections of COVID-19\'s second wave";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label21.Location = new System.Drawing.Point(75, 350);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(308, 22);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "steps as military personnel in tackling";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label20.Location = new System.Drawing.Point(75, 327);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(297, 22);
+            this.label20.TabIndex = 10;
+            this.label20.Text = "Instruction of CAS, BD Army on our";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(135)))), ((int)(((byte)(117)))));
+            this.label19.Location = new System.Drawing.Point(75, 214);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(128, 22);
+            this.label19.TabIndex = 9;
+            this.label19.Text = "30 / Jun / 2021";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label18.Location = new System.Drawing.Point(75, 192);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(207, 22);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "Allotment-2021 (DOHS)\r\n";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(175)))));
+            this.label17.Location = new System.Drawing.Point(75, 170);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(235, 22);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "General Instruction Plot/Flat\r\n";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(148)))), ((int)(((byte)(38)))));
+            this.label16.Location = new System.Drawing.Point(125, 96);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(350, 26);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "NEWS AND ANNOUNCEMENT";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(292, 43);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(128, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(167, 43);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(128, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(137, 522);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(132, 50);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Log Out";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(106)))), ((int)(((byte)(77)))));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(111, 391);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(194, 22);
+            this.label6.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(111, 356);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(194, 22);
+            this.label4.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(123, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 23);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "For Our Country";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(49, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(313, 23);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "In War, In Peace We are Everywhere";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(137, 151);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(132, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label15
             // 
@@ -728,15 +728,15 @@ namespace The_Last_Soldier
             this.Load += new System.EventHandler(this.Armyman_Load);
             this.Leftpanel1.ResumeLayout(false);
             this.Leftpanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);

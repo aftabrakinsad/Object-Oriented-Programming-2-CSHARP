@@ -130,68 +130,245 @@ namespace The_Last_Soldier
 
         private void button6_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from ARMYMAN where Username = '" + textBox3.Text + "'";
-            cmd.ExecuteNonQuery();
-            scon.Close();
-            MessageBox.Show("Deleted");
+            if (string.IsNullOrEmpty(textBox3.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox4.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else if (string.IsNullOrEmpty(textBox5.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox6.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Location.");
+            }
+            else if (string.IsNullOrEmpty(textBox7.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Mission.");
+            }
+            else if (string.IsNullOrEmpty(textBox8.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Status.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "delete from ARMYMAN where Username = '" + textBox3.Text + "'";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Deleted");
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "INSERT INTO ARMYMAN VALUES('" + textBox3.Text + "', '" + textBox4.Text + "', '" + textBox5.Text + "', '" + textBox6.Text + "', '" + textBox7.Text + "', '" + textBox8.Text + "')";
-            cmd.ExecuteNonQuery();
-            scon.Close();
-            MessageBox.Show("Inserted");
+            if (string.IsNullOrEmpty(textBox3.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox4.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else if (string.IsNullOrEmpty(textBox5.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox6.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Location.");
+            }
+            else if (string.IsNullOrEmpty(textBox7.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Mission.");
+            }
+            else if (string.IsNullOrEmpty(textBox8.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Status.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "INSERT INTO ARMYMAN VALUES('" + textBox3.Text + "', '" + textBox4.Text + "', '" + textBox5.Text + "', '" + textBox6.Text + "', '" + textBox7.Text + "', '" + textBox8.Text + "')";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Inserted");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "UPDATE ARMYMAN SET Statuss ='"+textBox3.Text+ "' where Statuss = '" + textBox8.Text+"'";
-            cmd.ExecuteNonQuery();
-            scon.Close();
-            MessageBox.Show("Updated");
+            if (string.IsNullOrEmpty(textBox3.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox4.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else if (string.IsNullOrEmpty(textBox5.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox6.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Location.");
+            }
+            else if (string.IsNullOrEmpty(textBox7.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Mission.");
+            }
+            else if (string.IsNullOrEmpty(textBox8.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Status.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "UPDATE ARMYMAN SET Statuss ='" + textBox8.Text + "', MISSION_NAME ='" + textBox7.Text + "' where Uni_id = '" + textBox5.Text + "'";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Updated");
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "INSERT INTO User_info_family VALUES('" + textBox12.Text + "', '" + textBox11.Text + "', '" + textBox10.Text + "', '" + textBox9.Text + "')";
-            cmd.ExecuteNonQuery();
-            scon.Close();
-            MessageBox.Show("Inserted");
+            if (string.IsNullOrEmpty(textBox12.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox11.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox10.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Email.");
+            }
+            else if (string.IsNullOrEmpty(textBox9.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "INSERT INTO User_info_family VALUES('" + textBox12.Text + "', '" + textBox11.Text + "', '" + textBox10.Text + "', '" + textBox9.Text + "')";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Inserted");
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            scon.Open();
-            SqlCommand cmd = scon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from User_info_family where FNAME = '" + textBox12.Text + "'";
-            cmd.ExecuteNonQuery();
-            scon.Close();
-            MessageBox.Show("Deleted");
+            if (string.IsNullOrEmpty(textBox12.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox11.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox10.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Email.");
+            }
+            else if (string.IsNullOrEmpty(textBox9.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "delete from User_info_family where FNAME = '" + textBox12.Text + "'";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Deleted");
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(textBox12.Text) == true)
+            {
+                MessageBox.Show("Please Fill Up all Details to Access.");
+                MessageBox.Show("Please Enter Your Name.");
+            }
+            else if (string.IsNullOrEmpty(textBox11.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your ID.");
+            }
+            else if (string.IsNullOrEmpty(textBox10.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Email.");
+            }
+            else if (string.IsNullOrEmpty(textBox9.Text) == true)
+            {
+                MessageBox.Show("Please Enter Your Password.");
+            }
+            else
+            {
+                scon.Open();
+                SqlCommand cmd = scon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "UPDATE User_info_family SET EMAIL ='" + textBox10.Text + "' where UNIQUE_ID = '" + textBox11.Text + "'";
+                cmd.ExecuteNonQuery();
+                scon.Close();
+                MessageBox.Show("Updated");
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Login rl = new Login();
+            MessageBox.Show("Logged Out");
+            this.Close();
+            rl.Show();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            textBox5.ReadOnly= true;
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+            textBox11.ReadOnly = true;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
             scon.Open();
             SqlCommand cmd = scon.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "UPDATE User_info_family SET EMAIL ='" + textBox12.Text + "' where EMAIL = '" + textBox10.Text + "'";
+            cmd.CommandText = "select * from MISSION";
             cmd.ExecuteNonQuery();
+            dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            dataGridView3.DataSource = dt;
             scon.Close();
-            MessageBox.Show("Updated");
         }
     }
 }
