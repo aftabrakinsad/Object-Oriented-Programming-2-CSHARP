@@ -891,11 +891,11 @@ namespace The_Last_Soldier
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(507, 78);
+            this.label9.Location = new System.Drawing.Point(523, 78);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(425, 23);
+            this.label9.Size = new System.Drawing.Size(391, 23);
             this.label9.TabIndex = 6;
-            this.label9.Text = "Only one family member of army man can register.";
+            this.label9.Text = "Only family member of army man can register.";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // register_bttn_3
