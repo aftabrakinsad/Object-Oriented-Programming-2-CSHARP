@@ -238,7 +238,7 @@ namespace The_Last_Soldier
                 scon.Open();
                 SqlCommand cmd = scon.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "UPDATE ARMYMAN SET Statuss ='" + textBox8.Text + "', MISSION_NAME ='" + textBox7.Text + "' where Uni_id = '" + textBox5.Text + "'";
+                cmd.CommandText = "UPDATE ARMYMAN SET Statuss ='" + textBox8.Text + "', MISSION_NAME ='" + textBox7.Text + "', Location_A ='" + textBox6.Text + "' where Uni_id = '" + textBox5.Text + "'";
                 cmd.ExecuteNonQuery();
                 scon.Close();
                 MessageBox.Show("Updated");
@@ -348,7 +348,7 @@ namespace The_Last_Soldier
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            textBox5.ReadOnly= true;
+            //textBox5.ReadOnly= true;
         }
 
         private void textBox11_TextChanged(object sender, EventArgs e)
@@ -361,7 +361,7 @@ namespace The_Last_Soldier
             scon.Open();
             SqlCommand cmd = scon.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from MISSION";
+            cmd.CommandText = "select Uni_id, MISSION_NAME from MISSION";
             cmd.ExecuteNonQuery();
             dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
