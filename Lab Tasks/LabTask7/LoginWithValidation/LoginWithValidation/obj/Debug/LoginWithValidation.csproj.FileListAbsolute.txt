@@ -1,0 +1,11 @@
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\bin\Debug\LoginWithValidation.exe.config
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\bin\Debug\LoginWithValidation.exe
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\bin\Debug\LoginWithValidation.pdb
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.csproj.AssemblyReference.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.LoginForm.resources
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.Properties.Resources.resources
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.csproj.GenerateResource.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.csproj.CoreCompileInputs.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.exe
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.pdb
+E:\OBJECT ORIENTED PROGRAMMING 2\Final Term\Tasks\LabTask7\LoginWithValidation\LoginWithValidation\obj\Debug\LoginWithValidation.Home.resources
