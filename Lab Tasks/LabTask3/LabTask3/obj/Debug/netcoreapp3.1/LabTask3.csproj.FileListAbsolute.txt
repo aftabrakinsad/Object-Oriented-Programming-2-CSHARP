@@ -1,0 +1,14 @@
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.exe
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.deps.json
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.runtimeconfig.json
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.runtimeconfig.dev.json
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.dll
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\bin\Debug\netcoreapp3.1\LabTask3.pdb
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.csproj.AssemblyReference.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.GeneratedMSBuildEditorConfig.editorconfig
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.AssemblyInfoInputs.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.AssemblyInfo.cs
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.csproj.CoreCompileInputs.cache
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.dll
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.pdb
+E:\OBJECT ORIENTED PROGRAMMING 2\Mid Term\Lab Tasks\LabTask3\LabTask3\obj\Debug\netcoreapp3.1\LabTask3.genruntimeconfig.cache
