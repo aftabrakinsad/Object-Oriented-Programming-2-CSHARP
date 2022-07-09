@@ -53,14 +53,13 @@
 
 <hr>
 <br>
-<br>
 
 <h3>Used language & Tools<h3>
 <p>
   <ul>
     <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">CSharp</a></li>
     <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet">ASP.NET</a></li>
-    <li>CSharp Library</li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/">CSharp Library</a></li>
     <li><a href="https://visualstudio.microsoft.com/">Microsoft Visual Studio</a></li>
     <li><a href="https://www.mysql.com/">MySql</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object Oriented Programming</a></li>
