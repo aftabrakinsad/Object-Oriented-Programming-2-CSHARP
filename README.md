@@ -48,7 +48,9 @@
   Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf" (../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.<br>
   <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"> <br><br>
   Change the connection strings from project files.<br>
-  <img align="middle" height="50px" src="https://user-images.githubusercontent.com/66327542/178089575-a2297929-13b6-47b8-8f08-98c828ceebe8.png">
+  <img align="middle" height="50px" src="https://user-images.githubusercontent.com/66327542/178089575-a2297929-13b6-47b8-8f08-98c828ceebe8.png"> <br><br>
+  Run the sql query command(../The Last Soldier/DataBase/) under "ArmyManInfo.mdf" connection. <br>
+  <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178090574-3508b63a-fb16-4b70-8c9e-aa263f6d61ee.png">
 </P>
 
 <hr>
