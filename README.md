@@ -5,7 +5,7 @@
   </tr>
 
   <tr>
-    <th colspan="2"><h3>CSC1205	OBJECT ORIENTED PROGRAMMING 2</h3></h>
+    <th colspan="2"><h3>CSC2210	OBJECT ORIENTED PROGRAMMING 2</h3></h>
   </tr>
   
   <tr>
