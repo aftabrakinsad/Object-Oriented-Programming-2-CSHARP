@@ -43,13 +43,13 @@
 <br>
 
 <p>
-  <strong>To run the project successfully download the hole project.</strong> <br>
+  <strong>1. To run the project successfully download the hole project.</strong> <br>
   <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089296-f83115b1-bc2b-45a3-b2a5-7cae715791a1.png"> <br><br>
-  <strong>Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf" (../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.</strong><br>
+  <strong>2. Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf"(../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.</strong><br>
   <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"> <br><br>
-  <strong>Change the connection strings from project files.</strong><br>
+  <strong>3. Change the connection strings from project files.</strong><br>
   <img align="middle" height="50px" src="https://user-images.githubusercontent.com/66327542/178089575-a2297929-13b6-47b8-8f08-98c828ceebe8.png"> <br><br>
-  <strong>Run the sql query commands(../The Last Soldier/DataBase/) under "ArmyManInfo.mdf" connection.</strong> <br>
+  <strong>4. Run the sql query commands(../The Last Soldier/DataBase/) under "ArmyManInfo.mdf" connection.</strong> <br>
   <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178090574-3508b63a-fb16-4b70-8c9e-aa263f6d61ee.png">
 </P>
 
