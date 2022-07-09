@@ -1,0 +1,13 @@
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\bin\Debug\The Last Soldier.exe.config
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\bin\Debug\The Last Soldier.exe
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\bin\Debug\The Last Soldier.pdb
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The Last Soldier.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The_Last_Soldier.Admin.resources
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The_Last_Soldier.Armyman.resources
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The_Last_Soldier.Armymanfamily.resources
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The_Last_Soldier.Login.resources
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The_Last_Soldier.Properties.Resources.resources
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The Last Soldier.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The Last Soldier.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The Last Soldier.exe
+C:\Users\user\Downloads\Object-Oriented-Programming-2-CSHARP-master\Object-Oriented-Programming-2-CSHARP-master\The Last Soldier\obj\Debug\The Last Soldier.pdb
