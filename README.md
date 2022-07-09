@@ -42,5 +42,5 @@
 <br>
 <br>
 
-<p>To run the project successfully download the hole project.
-<img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089118-dc898f53-8cea-43bb-bcbf-7c0da10fcc4a.png"></P>
+<p>To run the project successfully download the hole project. <br>
+<img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"></P>
