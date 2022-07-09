@@ -48,5 +48,5 @@
   Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf" (../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.<br><br>
   <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"> <br><br>
   Change the connection strings from project files. <br>
-  <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089504-e36bd4e5-91cc-4157-8d54-69efa9459184.png">
+  <img align="middle" height="500px" src="https://user-images.githubusercontent.com/66327542/178089575-a2297929-13b6-47b8-8f08-98c828ceebe8.png">
 </P>
