@@ -50,3 +50,17 @@
   Change the connection strings from project files.<br>
   <img align="middle" height="50px" src="https://user-images.githubusercontent.com/66327542/178089575-a2297929-13b6-47b8-8f08-98c828ceebe8.png">
 </P>
+
+<hr>
+<br>
+<br>
+
+<h3>Used language & Tools<h3>
+<ul>
+  <li>CSharp</li>
+  <li>ASP.NET</li>
+  <li>CSharp Library</li>
+  <li>Microsoft Visual Studio</li>
+  <li>MySql Database</li>
+  <li>Object Oriented Programming</li>
+</ul>
