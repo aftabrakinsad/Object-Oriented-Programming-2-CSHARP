@@ -56,11 +56,13 @@
 <br>
 
 <h3>Used language & Tools<h3>
-<ul>
-  <li>CSharp</li>
-  <li>ASP.NET</li>
-  <li>CSharp Library</li>
-  <li>Microsoft Visual Studio</li>
-  <li>MySql Database</li>
-  <li>Object Oriented Programming</li>
-</ul>
+<p>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">CSharp</a></li>
+    <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet">ASP.NET</a></li>
+    <li>CSharp Library</li>
+    <li><a href="https://visualstudio.microsoft.com/">Microsoft Visual Studio</a></li>
+    <li><a href="https://www.mysql.com/">MySql</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object Oriented Programming</a></li>
+  </ul>
+</p>
