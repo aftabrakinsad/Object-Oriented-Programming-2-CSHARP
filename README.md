@@ -1,4 +1,4 @@
-<p align="center">
+<p align="middle">
 <table>
   <tr>
     <th colspan="2"><h3><a href="https://www.aiub.edu">American International University-Bangladesh(AIUB)</a></h3></h>
@@ -42,7 +42,11 @@
 <br>
 <br>
 
-<p>To run the project successfully download the hole project. <br>
-<img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089296-f83115b1-bc2b-45a3-b2a5-7cae715791a1.png"> <br>
-Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf" (../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.<br>
-<img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"></P>
+<p>
+  To run the project successfully download the hole project. <br>
+  <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089296-f83115b1-bc2b-45a3-b2a5-7cae715791a1.png"> <br><br>
+  Open the "DataBase" folder, here is a file named "ArmyManInfo.mdf" (../The Last Soldier/DataBase/ArmyManInfo.mdf) and add it to the connection.<br><br>
+  <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089209-a60e6ba0-2c64-4f85-910f-79ac4e05fb13.png"> <br><br>
+  Change the connection strings from project files. <br>
+  <img align="middle" width="500px" src="https://user-images.githubusercontent.com/66327542/178089504-e36bd4e5-91cc-4157-8d54-69efa9459184.png">
+</P>
